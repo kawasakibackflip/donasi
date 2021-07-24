@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<title>Terimakasih telah melakukan Donasi - SMAN 1 Banjar</title>
+<link rel="shortcut icon" href="../favicon.ico">
+<html>
+    <head>
+        <script src="https://randojs.com/1.0.0.js"></script>
+        <script>
+            function showRandomNumber(){
+                document.getElementById("myNumber").innerHTML = rando(100, 500);
+            }
+        </script>
+        <style>
+            #myNumber{
+                font-size:100px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+            #No{
+                font-size:50px;
+                text-align:center;
+                margin:40px;
+                font-family:Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body onload="showRandomNumber();"> 
+        <center><p style="font-family: sans-serif;"><b>TRANSAKSI SUKES - BERIKUT NOMOR ORDER ANDA</b></p></center>
+        <div id="No"><p style="font-family: sans-serif;">No.</p></div> <div id="myNumber"></div>
+        <center><p style="font-family: monospace;">Silahkan Screenshot halaman ini, diatas ini adalah nomor order anda.<br>
+        Hubungi pihak sekolah SMAN 1 Banjar, lalu perlihatkan Screenshot nomor order anda untuk melanjutkan pembayaran.<br><br>
+        <p>
+            Tanggal Transaksi: <script> document.write(new Date().toLocaleDateString()); </script><br>
+            Status: Sukses<br>
+            Batas Pembayaran: 1x24 jam
+            </p>
+            <div style="position: relative">
+                <p style="position: fixed; bottom: 0; width:100%; color:rgb(0, 0, 0); font-family:Arial; font-size:10px; text-align: center"> Verified Market - Secure Pay with eJpay | Build 20210724 v1.1
+                </p>
+            </div>
+    </body>
+</html>
